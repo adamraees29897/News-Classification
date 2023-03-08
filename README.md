@@ -4,14 +4,14 @@
 - Dataset Used: AG News Classification Dataset (from Kaggle)
 - IDE Used: Google Colab
 - Text Processing Steps: 
-        1. Import data from drive. 
-        2. Using only 2500 samples from each category.
-        3. Checked the dataset for null values.
-        4. The dataset contains 4 categories and 3 columns(Class Index, Title, Description)
-        5. Combine ‘Title’ and ‘Description’ to form x_train as well as x_test.
-        6. ‘Class Index’ to form y_train and y_test.
-        7. Create a function to remove punctuation and stop words. Also lemmatize the text.
-        8. Split the dataset into training, validation and testing dataset.
+    1. Import data from drive. 
+    2. Using only 2500 samples from each category.
+    3. Checked the dataset for null values.
+    4. The dataset contains 4 categories and 3 columns(Class Index, Title, Description)
+    5. Combine ‘Title’ and ‘Description’ to form x_train as well as x_test.
+    6. ‘Class Index’ to form y_train and y_test.
+    7. Create a function to remove punctuation and stop words. Also lemmatize the text.
+    8. Split the dataset into training, validation and testing dataset.
 
 - Model Building Steps:
     1. Built model and tokenizer using ‘distilbert-base-uncased-finetuned-sst-2-english’
